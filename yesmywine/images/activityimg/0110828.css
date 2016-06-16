@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.subject{ padding-bottom:0; background:#950008; margin:0 auto; width:100%}
+.subject-title h1{text-indent:0; font-size:0; height:258px; background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828banner_01.jpg?) no-repeat center top; position: relative;}
+.subject-title h3{text-indent:0; font-size:0; height:257px; background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828banner_02.jpg?) no-repeat center top; position: relative;}
+.subject-title h4{text-indent:0; font-size:0; height:258px; background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828banner_03.jpg?) no-repeat center top; position: relative;}
+.subject-title h2{text-indent:0; font-size:0; height:257px; background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828banner_04.jpg?) no-repeat center top; position: relative;}
+.section h3 strong{ display:none;}
+.subject-title h2{ text-indent:0; }
+.subject-content{width:100%;}
+.ruler{position: absolute; left: 50%; bottom: 0px; width: 159px; height: 39px; margin-left: -495px; display: inline-block; background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/ruler.jpg?) no-repeat center top;}
+
+.aaa{position: absolute; left: 50%; top: 555px; width: 910px; height: 60px; margin-left: -478px; display: inline-block; }
+
+
+/* 常用标准产品列表样式 */
+.section{ width: 960px; margin:0 auto;}
+.section .prodlist{ margin:0 auto;}
+.section h3{ display:none}
+.section ul.col3{ padding:0px 8px 0px 22px;}
+.section ul.col3 li{ padding:0px 10px;}
+.section .prodlist { padding-left:18px; padding-top:18px; width:960px; margin:0 auto;}
+.section .prodlist li.ad_pic{ padding:0;width:453px; height:346px;}
+.section .prodlist li{ position:relative;height:346px;padding: 0px 10px 0 10px;width:200px; margin-right:12px; margin-bottom:10px;background-color:#fff;}
+.section .prod-img{padding:15px 40px 0;margin:0;width:120px; height:200px;background-color:#fff;border:none;}
+.section .prod-img img{width:120px;height:196px;}
+.section .prod-name{padding:3px 0;display:block;text-align:left;height:22px;}
+.section .prod-name a.prod-cn{color:#636361;}
+.section .prod-note{margin:0;padding:3px 0;display:block;text-align:center;height:22px;width:200px; position:absolute;bottom:130px;}
+.section .prod-note:hover{ height:auto;}
+.section .prod-note:hover span{ height:auto;}
+.section .prod-note span{ opacity:0.85;filter:alpha(opacity=85); background-color:#fff;color:#b40000;font-size:12px;height:22px;line-height:22px;font-weight:normal;display: block;overflow:hidden;}
+.section .prod-name .prod-en{display:none;}
+.section .prod-soldrate{ }
+.section .prod-price{ height:35px; line-height:35px; float:none;}
+.section .prod-price span{ display:inline-block;width:100px; text-align:left;}
+.section .prod-price .maxprice{}
+.section .prod-price .minprice{ float:left;}
+.section .prod-price .minprice strong{ font-size:30px;}
+.section .prod-price span label{ display:none;}
+.section .promo-icon{}
+.section .prod-img label{ }
+.section .btn-buy{padding:0;margin:0;height:43px; float:none;width:auto;background:url(http://img3.yesmyimg.com/images/event/2014/03/017149/btn-buy.jpg) center center no-repeat;}
+.section .btn-sellout{padding:0;margin:0;height:43px;float:none;width:auto;background:url(http://img13.yesmyimg.com/images/event/2014/03/017149/btn-sellout.jpg) center center no-repeat;}
+
+
+.area{width: 100%; height: auto; overflow: hidden;}
+.area .divbg{width: 100%;}
+.area .prod{margin:0 auto; width: 990px; height: auto; overflow: hidden; position: relative; }
+.area .prod li{ float: left; position: relative;}
+.area img{ display: block;}
+
+
+#area1{background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828bg.jpg?) no-repeat center top; height: auto;}
+#area1 .prod{width: 990px; padding-top: 6px;}
+#rank{width: 990px; margin:0 auto; position: absolute; z-index: 11; height: 20px; top: 138px}
+#rank li{position: absolute; width: 200px; height: 20px;}
+#rank li:nth-child(1){left: 12px}
+#rank li:nth-child(2){left: 345px}
+#rank li:nth-child(3){left: 677px}
+
+
+#area2{}
+#focus{ height:616px; width: 990px;background:url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828bg2.jpg?) no-repeat center top; margin:0 auto; position: relative;}
+#focus .slide{ height:462px; width: 960px; overflow:hidden; margin:0 auto}
+#focus .slide ul{height: auto; overflow:hidden; padding-top: 19px;  _display:inline;}
+#focus ul li{float:left; width: 960px; margin-right:0;  _display:inline;}
+#focus ul li a img{width:240px; height:462px; display:block;float:left; }
+#focus .preNext{position:absolute;left:120px; top:486px;  width:150px; height:112px; background: url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828btn_left.jpg) no-repeat center center; cursor:pointer;}
+#focus .next{left:715px;  width:150px; background: url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828btn_right.jpg) no-repeat center center; cursor:pointer;}
+
+#area6{background: #56000f; width: 990px; margin:0 auto;}
+
+.tab{width: 990px; height: 115px; margin:0 auto;}
+.tab li{width: 495px; float: left;}
+
+
+#section3 h3{background: url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828t11.jpg) no-repeat center center; height: 115px; display:block}
+#section4 h3{background: url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828t12.jpg) no-repeat center center; height: 115px; display:block}
+#section5 h3{background: url(http://img3.yesmyimg.com/images/event/2016/06/0110828/0110828t13.jpg) no-repeat center center; height: 115px; display:block}
+
+#section7,#section11{display:none}
+
+
+
+/* floatTool Right */
+#floatTool2 {position:absolute;right:1%;display: block; width:150px; height:567px; background:url(http://img14.yesmyimg.com/images/event/2016/06/0110828/floatRight.jpg?) no-repeat; overflow:hidden; z-index:9;padding-top: 68px;}
+#floatTool2 a{ width:150px; height:27px; line-height:28px;margin:0 auto; display:block; cursor: pointer;}
+#floatTool2 a.w{ margin-top: 141px;}
+
+/* floatTool Left */
+#floatTool1 {position:absolute;left:1%;display: block; width:206px; height:504px; background:url(http://img14.yesmyimg.com/images/event/2016/06/0110828/floatLeft.png?) no-repeat; overflow:hidden; z-index:9;padding-top: 221px;}
+#floatTool1 a{ width:138px; height:27px; line-height:28px;margin:0 auto; display:block; cursor: pointer;}
+#floatTool1 a.w{ height: 44px;}

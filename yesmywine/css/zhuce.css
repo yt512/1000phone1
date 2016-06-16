@@ -1,0 +1,40 @@
+/*-----------------------重置样式-----------------------*/
+body,p,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,img,fieldset,table,li,form,legend{margin:0;padding:0;}
+html,body{width: 100%;height: 100%;}
+i,em{font-style: normal;}
+a{text-decoration:none;}
+fieldset,img{border:0;}
+img{display:block;}
+ul li{list-style:none;}
+h1,h2,h3,h4{font-weight:normal;}
+body{font-size:12px;font-family:"微软雅黑";background: #fff;}
+
+/*------------------main-------------------------*/
+.maindiv{width: 100%;height: auto;border-bottom: 1px solid #ccc;overflow:hidden;}
+.main{width:1188px;margin:auto;overflow:hidden;background: #fff;}
+.maincon{margin:20px 0 36px 0;}
+
+.main_left{width:396px;float:left;border:1px solid #dfdfdf;}
+.main_left #form_top{width:364px;height:54px;margin-left:20px;}
+.main_left #form_top p{float:left;width:90px;height:54px;font-size:14px;line-height:54px;}
+.main_left #form_top span{float:right;width:216px;height:12px;font-size:12px;line-height:12px;margin-top:42px;}
+.main_left #form_top span a{color:#035aab;}
+
+.main_left #form {width:364px;margin-left:20px;border:0; border-top:1px solid #dfdfdf; overflow:hidden;}
+.main_left #form .div_com{width:364px;height:36px;font-size:14px;line-height:36px;margin-bottom:12px;}
+.main_left #form input{line-height:33px;color:#a7a7a4;}
+.main_left #form #list1{margin-top:40px;}
+.main_left #form p{width:78px;height:36px;float:left;text-align:right;}
+.main_left #form .com{width:278px;height:32px;float:left;border:1px solid #dfdfdf;}
+.main_left #form .com1{width:174px;height:32px;float:left;border:1px solid #dfdfdf;}
+.main_left #form  #check_id{width:100px;height:36px;background:pink;float:left;}
+.main_left #form #check_id img{float:left;width:25px;height:36px;}
+.main_left #form  #message_id{width:100px;height:36px;background:#f55d0a;float:left;text-align:center}
+.main_left #form .checkbox {width:286px;height:28px;margin:0 0 6px 70px;}
+.main_left #form .checkbox #checkbox{float:left;}
+.main_left #form .checkbox span{width:286px;height:28px;line-height:28px;}
+.main_left #form .checkbox span a{color:#3d5b91;}
+.main_left #form #submit{width:355px;height:45px;display:block;background:#bc0e31;color:#fff;
+text-align:center;font-size:18px;border:none;margin-bottom:26px;line-height: 44px;}
+
+.main_right span{float:right;width:784px;height:537px;background:url(../images/zhuceimg/register_ads.jpg) no-repeat center;}

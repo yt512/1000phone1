@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>注册也买酒</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../css/zhuce.css" />
+	<script type="text/javascript" src="../js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../js/zhuce.js"></script>
+	<script type="text/javascript" src="../js/toast.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+	<!--
+    	作者：yutong512@sina.com
+    	时间：2016-06-07
+    	描述：header
+    -->
+    <div id="header"></div>
+	<!--
+    	作者：offline
+    	时间：2016-06-13
+    	描述：zhuce.main
+    -->
+    <div class="maindiv">
+    	<div class="main">
+			<div class="maincon">
+		        <div class="main_left">
+		                <div id="form_top">
+		                    <p>注册也买酒</p>
+		                    <span><a href="">您可以使用QQ、支付宝、新浪微博登录</a></span>
+		            	</div>
+		                
+		            <form id="form">
+		            	<div id="list1" class="div_com">
+		                    <p>手机号:</p>
+		                    <input class="com" id="phone" type="text" placeholder="手机号"/>
+		                    <span></span><!--placeholder:占位符；输入框中占位，得焦点并输入内容占位值自动消失，删 												  除输入框中内容后，自动还原占位值；-->
+		                </div>
+		                <div class="div_com">
+		                    <p>验证码:</p>
+		                    <input class="com1" id="check_num" type="text" placeholder="请输入验证码"/>
+		                    <span id="check_id">
+		                    <img id="img01" src="../images/zhuceimg/0.png"/> 
+		                    <img id="img02" src="../images/zhuceimg/1.png"/>
+		                    <img id="img03" src="../images/zhuceimg/2.png"/>
+		                    <img id="img04" src="../images/zhuceimg/3.png"/>
+		                    </span>
+		                </div>
+		                <div class="div_com">
+		                    <p>短信验证码:</p>
+		                    <input class="com1"  id="message_check" type="text" placeholder="请输入短信验证码"/>
+		                    <a href="#"><span id="message_id">获取验证码</span></a>
+		                </div>
+		                <div class="div_com">
+		                    <p>密码:</p>
+		                    <input class="com" id="password" type="password" placeholder="请输入密码"/> 
+		                    <span></span>
+		                </div>
+		                <div class="div_com">
+		                    <p>密码确认:</p>
+		                    <input class="com" id="password1" type="password" placeholder="请再次输入密码"/>
+		                    <span></span>
+		                </div>
+		                <div class="checkbox">
+		                    <input id="checkbox" type="checkbox">
+		                    <span>我有VIP升级码</span>
+		                </div>
+						<div class="checkbox">
+		                    <input id="checkbox" type="checkbox" checked="checked"> 
+		                    <span>我已满18周岁并接受 <a href="">《也买酒服务条款》</a></span>
+		                </div>
+		                    <a id="submit" href="#">注册完成</a>
+		 					<!-- 应提交服务器操作用type="submit"-->            
+		            </form>
+		        </div>
+		        <div class="main_right">
+		            <span></span>
+		        </div>
+		    </div>
+		</div> 
+    </div>
+	
+    <!--
+    	作者：yutong512@sina.com
+    	时间：2016-06-07
+    	描述：footer
+    -->
+    <div id="footer"></div>
+</body>
+</html>

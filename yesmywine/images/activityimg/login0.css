@@ -1,0 +1,100 @@
+.login { padding:30px 0; }
+/* box-frame */
+.box-frame { overflow:hidden;}
+.box-main { padding:0px;}
+
+#forget{ padding:2px 0;}
+#forget a{ color:#3472B2;}
+#qqLoginBtn{ width:98px; height:24px; float:left;}
+#qqLoginBtn img{ display:none;}
+.bd-default{border-left:1px solid #968D88;border-top:1px solid #968D88;border-right:1px solid #CCBFB9;border-bottom:1px solid #CCBFB9;}
+.bd-red{ border:1px solid #A00000;}
+
+/* register_head */
+#register_head{ border-bottom:2px solid #BC0E31; overflow:hidden;}
+#register_head .head_main{ width:1200px; height:auto; overflow:hidden; margin:0 auto; padding:20px 0px;}
+#register_head .head_main h2{ float:left;}
+#register_head .head_main .right{ float:right;}
+
+/* mod-login-ads */
+.mod-login-ads{ float:left; width:770px;text-align:center;}
+.mod-login-ads img{ max-width:520px;}
+/* mod-login */
+.mod-login{ padding:4px; background:url("http://img10.yesmyimg.com/20140704/newWeb/images/global/loading.gif") no-repeat scroll center center #fff;}
+.mod-login-bg{background:#F2F2F2;}
+.mod-login2{ border:1px solid #ddd; background:#fff;opacity:0;filter:aplha(opacity = 0);display:none;}
+.mod-login-list{ padding:70px 50px 0px 35px; background:url(images/login_text.gif) no-repeat 30px 25px;}
+.mod-login dl { padding:8px 0; overflow:hidden;}
+.mod-login dd {; line-height:20px; width:300px;}
+.mod-login dd span.error { display:inline-block; line-height:20px; background:url(images/icon_error.gif) no-repeat 0 3px; padding-left:16px; color:#f00; width:280px; margin-top:3px;}
+.mod-login dd span.hidden { display:none; }
+.mod-login .txt-input { color:#666;height:30px; line-height:32px; padding:0 5px; width:288px; font-size:14px;}
+.mod-login .hint-user { background:#fff url(images/hint_logname.gif) no-repeat 5px 8px; }
+.mod-login .hint-password { background:#fff url(images/hint-password.gif) no-repeat 5px 8px; }
+.mod-login .hint-rand { background:#fff url(images/hint-rand.gif) no-repeat 5px 8px; }
+.mod-login .txt-rand { width:60px; }
+.mod-login .rand-img { margin-right:5px; }
+.mod-login .btn-refreshrand {color: #3172B2; font-size: 12px; width:50px; margin-right:50px;text-align:left; height:32px; line-height:32px; padding-top:6px; #margin-top:-12px;}
+
+.mod-login .btn-login,
+.mod-login .btn-register { background:url(images/btn_login.gif) repeat-x; width:300px; height:40px; border:none; display:block; color:#fff; font-family:'Microsoft Yahei'; font-size:18px; cursor:pointer;}
+.btn-login:hover{background:url(images/btn_login_hover.gif) repeat-x;-webkit-transition:background 0.2s ease-in;-moz-transition:background 0.2s ease-in;-o-transition:background 0.2s ease-in;transition:background 0.2s ease-in;}
+.mod-login .partner { color:#999; padding:0 30px 10px 30px; _width:260px; border-top:dotted 1px #ccc; margin-top:15px;}
+.mod-login .partner p { line-height:32px; }
+.mod-login .partner p.dotline {margin-bottom:2px; }
+.mod-login .partner p a { display:block; float:left; margin-right:5px; margin-bottom:5px; }
+.mod-login .partner p a.btn-login-alipay { width:96px; height:30px; background:url(images/btn_alipay.jpg) no-repeat; text-indent:-10000px; overflow:hidden; }
+.mod-login .partner p a.btn-login-weibo { width:96px; height:30px; background:url(images/btn_weibo.jpg) no-repeat; text-indent:-10000px; overflow:hidden; }
+.mod-login .partner p a.btn-login-cr { width:114px; height:25px; background:url(images/btn_62cr.png) no-repeat; text-indent:-10000px; overflow:hidden; }
+.mod-login .clause span.error { display:block; }
+.mod-login .clause span.hidden { display:none; }
+.mod-login .clause a.blue{color:#06c;}
+#vipinfo { background-color:#ffffe8; padding:5px; 10px; margin-top:5px; display:none; border:solid 1px #eee; width:350px; }
+#vipinfo p { color:#666; padding:2px 0; }
+#vipinfo p label { display:block; height:26px; line-height:26px; width:70px; text-align:right; float:left; }
+#vipinfo p label i { color:#f00; font-style:normal; font-weight:bold; font-family:Arial; margin-right:5px; }
+#vipinfo p input { height:24px; line-height:24px; border:solid 1px #ccc; width:150px; padding:0 5px; float:left; margin-right:5px; }
+#vipinfo p span { display:block; float:left; }
+#vipinfo p span.randcode { width:162px; margin-right:5px; }
+#vipinfo p span.randcode input { float:none; margin-right:0; }
+#vipinfo p span.randcode span { float:none; }
+#vipinfo p ins { text-decoration:none; float:left; display:block; width:85px; line-height:16px; }
+#vipinfo p ins img { width:85px; height:20px; margin-top:3px; }
+#vipinfo p .hint-passcode { background:#fff url(images/hint_passcode.gif) no-repeat 5px 5px; }
+#vipinfo p .hint-recommend { background:#fff url(images/hint_recommend.gif) no-repeat 5px 5px; }
+/* mod-login-note */
+.mod-login-note { color:#999; background:url(http://img10.yesmywine.com/newWeb/images/button/successBg.jpg) no-repeat 0 10px; width:255px; padding:10px 20px 40px 50px; }
+.mod-login-note h3 { font-size:14px; font-weight:bold; color:#666; }
+.mod-login-note p { padding:10px 0; }
+.mod-login-note li { list-style:disc; margin-left:20px; line-height:22px; }
+.mod-login-note a.btn-register { background:url(http://img10.yesmywine.com/newWeb/images/member/regBtn.png) no-repeat; color:#666; display:inline-block; height:25px; line-height:25px; text-align:center; width:140px; }
+.mod-login-note a.btn-register:hover { text-decoration:none; }
+/* login-pop */
+.login-pop { overflow:hidden; }
+.login-pop .header-simp,
+.login-pop .box-frame h1,
+.login-pop .mod-login-note,
+.login-pop .footer-simp,
+.login-pop .recommend { display:none; }
+.login-pop .content { width:100%; padding:10px 0; }
+.login-pop .box-frame { border:none; }
+.login-pop .mod-login dl { padding:5px 0; }
+.login-pop .mod-login dd span.error { display:block; margin-top:5px; }
+.login-pop .mod-login dd span.hidden { display:none; }
+.login-pop .mod-login .partner p { width:350px; }
+/* register-pop */
+.register-pop .header-simp,
+.register-pop .box-frame h1,
+.register-pop .mod-login-note,
+.register-pop .footer-simp,
+.register-pop .recommend { display:none; }
+.register-pop .content { width:100%; padding:10px 0; }
+.register-pop .box-frame { border:none; }
+.register-pop .mod-login dd span.error { display:block; margin-top:5px; }
+.register-pop .mod-login dd span.hidden { display:none; }
+
+
+.logon{ width:100%; height:20px; position:relative; padding-left:18px; margin-top:6px;}
+.logon input{ position:absolute; left:0; top:4px;}
+
+#login_code .error{ float:left;}

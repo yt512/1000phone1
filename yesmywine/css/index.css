@@ -1,0 +1,184 @@
+/*-----------------------重置样式-----------------------*/
+body,p,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,img,fieldset,table,li,form,legend{margin:0;padding:0;}
+html,body{width: 100%;height: 100%;}
+i,em{font-style: normal;}
+a{text-decoration:none;}
+fieldset,img{border:0;}
+img{display:block;}
+ul li{list-style:none;}
+h1,h2,h3,h4{font-weight:normal;}
+body{font-size:12px;font-family:"微软雅黑";background: #ebebe8;}
+/*---------------------活动页链接----------------------------*/
+.activity a{display: block;width: 100%;height: 350px;background: url(../images/indeximg/activityimg.jpg) no-repeat center;}
+/*------------------------------轮播图1----------------------------------*/
+/*-------------------------circlenav-----------------------------*/
+.circlenav{height:400px;background: #ded9d3;}
+.picslist{width: 950px;height: 400px;position: relative;margin:0 auto;}
+.picslist a{width: 950px;height: 400px;position: relative;overflow: hidden;margin:0 auto;display: block;}
+.navimg{width: 950px;height: 400px;position: absolute;left: 0;top: 0;overflow: hidden;}
+.picsindex{width:350px;height: 30px;position: absolute;right:5px;bottom: 10px;}
+.picsindex li{float: left;width:30px;height: 30px;margin-right: 5px;background: url(../images/indeximg/sprite.png) no-repeat -81px -40px;
+font-size:14px;color:white;text-align: center;line-height: 30px;}
+.picsindex .picsactive{background-position: -111px -40px;}
+/*-------------------------indexminlist-----------------------------*/
+.indexminlist{width: 950px;height:auto;margin:10px auto 0;overflow: hidden;}
+.minlistleft{width: 200px;border-top:2px solid #73584a;border-bottom: 1px solid #dddddd;
+float: left;}
+.minlistlefttop{height: 205px;}
+.minlistlefttop img{width: 200px;height: 205px;}
+.minlistleftbottom{height: auto;}
+.minlistnav{height: 31px;border-top:1px solid #bfb7aa;position: relative;}
+.minlistnav>li{border-bottom:1px solid #bfb7aa;float:left;height:30px;width: 66px;line-height: 30px;}
+.minlistnav>li>a{color:#5c483d;display:block;width: 66px;height:30px;background:#e0dbd8;text-align:center;}
+#twoborder{border-left:1px solid #bfb7aa;border-right: 1px solid #bfb7aa;}
+.minlistnav>li .sunul{width: 200px;height:115px;float: left;display:none;position: absolute;left: 0;top:31px;}
+.minlistnav .minactive{border-bottom:none;}
+.minlistnav .minactive .sunul{display: block;background: white;}
+.minlistnav .minactive>a{color:#d85a44;background:#fff;}
+.sunul li{padding-left:20px;line-height: 24px;background: url(../images/indeximg/disc.jpg) no-repeat 10px center;}
+.sunul li a{color:#888888;}
+
+.minlistright{width: 740px;height: 355px;border-bottom: 1px solid #ddd;float:right;background:white;}
+.mlrnav{height: 35px;overflow: hidden;}
+.mlrnav li{line-height:32px;background:#f8f8f5;border-bottom:1px solid #cccccc;float: left;width: 147px;border-right: 1px solid #c1c1b7;text-align: center;}
+.mlrnav li a{color:#5c483d;font-size: 14px;}
+.mlrnav .liactive{background:white;border-bottom: none;border-top:1px solid #d95b44;}
+.mlrnav .liactive a{color:#d95b44;}
+.winesdiv{position: relative;height: 355px;overflow: hidden;}
+.wineslist{padding:10px 0 10px 4px;height:1775px;overflow: hidden;position: absolute;left: 0;top:0;}
+.oneline{height: 355px;}
+.onewine{width: 178px;height:auto;float:left;margin-right: 4px;}
+.onewine .timer{color:#878787;width: 153px;height:24px;background: #f8f8f5 url(../images/indeximg/sprite.png) no-repeat 0 -91px;line-height:24px;
+padding-left: 25px;}
+.onewine .timer span{background: #8d6c5a ;color:white;}
+.onewine .onepic{width:178px;height: 200px;text-align: center;}
+.onewine .onepic a{display:inline-block;vertical-align:middle;}
+.onewine .onepic span{display:inline-block;vertical-align:middle;height:100%;}
+.secondline .tips .price{display:block;font-size: 16px;color:#c53f4c;padding-left: 10px;border-bottom: 1px solid #eee3e1;}
+.secondline .tips p .pleft{float: left;font-size:12px;color:#999997;}
+.secondline .tips p .pleft em{color: #5c7184;font-style: normal;}
+.secondline .tips p .pright{float: right;font-size:12px;color:#999997;}
+.secondline .tips p .pright em{color: #5c7184;font-style: normal;}
+.tips h3{font-size:14px;line-height: 18px;padding:0 20px 2px 10px;height: 36px;overflow: hidden;}
+.tips h3 a{color:#5b473d;}
+.tips h3 a:hover{text-decoration: underline;}
+.tips{width: 178px;height:auto;background: #f4f4f0;padding-top:9px;overflow: hidden;}
+.tips p{height: 30px;line-height: 30px;color:#999;padding-left: 10px;}
+.tips p span{font-size: 16px;color:#c53f4c;}
+/*----------------------------guessyoulike-----------------------------------*/
+.guessyoulike{width: 948px;height:408px;margin: 0 auto 10px;border-right: 2px solid #ebebe8;}
+.gyltitle{width:950px;height:36px;border-bottom:2px solid #cc3333;}
+.gylh2{width:125px;height:34px;background: url(../images/indeximg/title.png) no-repeat 0 -381px;float:left;}
+.gylchange{width:150px ;height: 36px;float:right;}
+.gylchangepic{width:125px;height: 18px;margin: 7px 0 11px;background:url(../images/indeximg/title.png) no-repeat 0 -416px;padding-left:30px;}
+.gylchangepic a{color:#663333;font-size: 14px;}
+.gylchangepic a:hover{text-decoration: underline;}
+.gylproducts{width:948px;background:white;overflow: hidden;}
+.sixpic li{width: 315px;height: 184px;border-right:1px solid #ebebe8;border-bottom: 1px solid #ebebe8;float: left;}
+.sixpic li dl{width: 315px;padding-top:3px;height: auto;overflow: hidden;}
+.sixpic li dl dt img{height: 140px;margin:0 10px ;}
+.sixpic li dl dd,.sixpic li dl dt{float: left;padding-top: 24px;}
+.sixpic li dl dd h4 a{color: #663333;}
+.sixpic li dl dd h4 a:hover{text-decoration: underline;}
+.sixpic li dl dd p span{color: #8c8cbf;}
+.sixpic li dl dd p {color: #777777;line-height: 18px;}
+.sixpic ._price{color:#c53f4c;font-size: 16px;line-height: 24px;}
+/*--------------------------------indexbrand-----------------------------------*/
+.indexbrand{width: 950px;height: 344px;margin: 0 auto 10px;}
+.brandtitle{width:950px;height:36px;border-bottom:2px solid #cc3333;}
+.brandh2{width: 125px;height: 34px;background: url(../images/indeximg/title.png) no-repeat 0 -434px;float: left;}
+.brandmore{width: 60px;height: 22px;float: right;background: url(../images/indeximg/sprite.png) no-repeat 0 -68px;}
+.brandmore a{text-align:center;line-height: 22px;font-size: 14px;color: #333333;display: block;}
+.brandcon{width: 950px;height:auto;background: white;overflow: hidden;}
+.brandpics{width: 950px;height: 200px;background:pink;}
+.brandpics ul{width: 950px;overflow: hidden;height: 200px;position: relative;}
+.brandpics ul li img{height: 200px;width: 360px;}
+.brandpics ul li{width: 118px;overflow: hidden;float: left;}
+.brandpics ul .last{position: absolute; top:0; right:0;}
+.brandpics .activeborder{width: 360px;}
+.brandbottom{width: 950px;height: 105px;}
+.brandbottom ul li{float:left;width: 170px;border-left: 1px solid #ebebe8;height:85px;padding:10px 9px 10px 10px;}
+.brandbottom .noborder{width:170px;border: 0;}
+.brandbottom ul li a{display: block;width: 170px;overflow: hidden;height: 85px;position: relative;}
+.brandbottom ul li img{height:85px;position: absolute;left:0;top:0 ;}
+
+/*--------------------------------drinkfirend--------------------------------------*/
+.drinkfirend{width: 950px;height:245px;border-bottom:1px solid #dddddd;margin: 0 auto;}
+.dftitle{width: 950px;height: 34px;border-bottom: 1px solid #ddd;background: #f8f8f5;}
+.dftitle p{height: 34px;line-height: 34px;width: 94px;float: right;text-align: center;}
+.dftitle h2{float:left;width:125px;height: 34px;background: url(../images/indeximg/title.png) no-repeat 0 -204px;}
+.changespan {display:inline-block;width: 40px;position: relative;}
+.changespan b,.changespan em{display:inline-block;width: 18px;height: 18px;}
+.changespan b{background: url(../images/indeximg/sprite.png) no-repeat -130 -75;
+position: absolute;left: 0;top:8px;}
+.changespan em{background: url(../images/indeximg/sprite.png) no-repeat -156 -75;
+position: absolute;right: 0;top:8px;}
+.drinktalk{height: 210px;background: white;width: 950px;position: relative;overflow:hidden;}
+.drinktalk .sumul{height: 210px;width: 2850px;position: absolute;left: 0;top: 0;}
+.drinktalk .sumul ul{width: 950px;height: 210px;float: left;}
+.drinktalk .sumul ul li{width: 316px;height: 210px;float: left;}
+.drinktalk .sumul ul li dl{width: 303px;height: 202px;padding-top:8px;padding-left: 13px;}
+.drinktalk .sumul ul li dl dt{float: left;margin-right: 7px;}
+.drinktalk .sumul ul li dl dd{width: 182px;height:202px;float: left;}
+.drinktalk .sumul ul li dl dd h4{color:#5c483d;font-size: 14px;}
+.drinktalk .sumul .prices {color:#cf3f4c;font-size: 16px;height: 18px;line-height: 18px;margin-bottom: 12px;}
+.onetip{width: 182px;height: 70px;margin-bottom: 10px;}
+.onetip .head{width: 50px;float: left;}
+.onetip .head .headpic{height: 50px;}
+.headpic img{width: 50px;height: 50px;border-radius: 50%;}
+.head span{display: block;width: 50px;height: 20px;text-align: center;line-height: 20px;color:#999;}
+.conts{width:120px;padding-left: 10px;height: 70px;float: left;}
+.conts .lable{display: block;height:20px;width: 64px;background: #c19e64;
+border-radius:5px;text-align: center;color:white;}
+.conts p{width: 120px;float: left;color:#666;}
+.drinktalk .sumul .twoborder{border-left:1px solid #ebebe8;border-right:1px solid #ebebe8;}
+
+/*-----------------------------------importwine---------------------------------------*/
+.importwine{width: 950px;margin: 0 auto;border-bottom: 1px solid #d2d2ce;height: 1008px;}
+.iwtitle{height: 34px;width: 950px;border-bottom:2px solid #c53f4c;}
+.importwinetitle{width: 125px;height:34px;background: url(../images/indeximg/title.png) no-repeat 0 0;}
+.producpics{height: 972px;background: white;}
+.procicle{height: 250px;}
+.procicle .pcleft{width: 190px;float: left;height: 250px;}
+.procicle .pcleft ul{width: 190px;height: 250px;}
+.procicle .pcleft ul li{float: left;width: 95px;height: 50px;}
+.procicle .pcleft ul li img{width: 94px;height: 49px;border-bottom: 1px solid #c0ac98;border-right: 1px solid #c0ac98;}
+.procicle .pcright{width: 760px;float: left;height: 250px;overflow: hidden;position: relative;}
+.procicle .pcright .bigpics{width: 3800px;position: absolute;left: 0;top: 0;}
+.procicle .pcright .bigpics li{float: left;width:760px;height: 250px;}
+.procicle .pcright .bigpics li img{width:760px;height: 250px;}
+.piclabel{width: 127px;height: 26px;position: absolute;left: 300px;bottom: 10px;}
+.piclabel li{width: 26px;height: 26px;margin-right: 5px;float: left;text-align: center;line-height: 26px;
+background: url(../images/indeximg/sprite.png) no-repeat -141px -40px;}
+.piclabel .activeli{background-position: -167px -40px;}
+.prolist{width: 950px;height: 353px;}
+.prolist .ptitle{height: 30px;padding-top: 10px;border-bottom: 1px solid #d2d2ce;width: 940px;margin: 0 auto;}
+.prolists{height: 312px;width: 950px;}
+.prolists ul{padding-left: 10px;padding-top:5px;}
+/*--------------------------------------indexspirit------------------------------------------*/
+.spirittitle{background-position: 0 -34px;}
+/*--------------------------------------indexactive----------------------------------------*/
+.indexactive{width: 950px;margin: 10px auto 14px;overflow: hidden;}
+.indexactive img{width: 950px;}
+/*-------------------------------------chinesewine-----------------------------------------*/
+.cwinetitle{background-position: 0 -68px;}
+/*------------------------------------oldwine----------------------------------------------*/
+.oldwinetitle{background-position: 0 -136px;}
+/**/
+.winetoolstitle{background-position: 0 -102px;}
+/*-------------------------------------indexbestwomen-------------------------------------*/
+.indexbestwomen{width: 950px;margin: 10px auto 40px;border-bottom: 1px solid #ddd;overflow: hidden;}
+.bestwomen{width:595px;float: left;background: #f8f8f5;}
+.indexbestwomen h2{height: 34px;border-bottom: 1px solid #ddd;background: url(../images/indeximg/title.png) no-repeat 0 -272px;}
+.theytalk{width: 345px;float: right;background: #f8f8f5;}
+.indexbestwomen .comtitle{background-position:0 -306px;}
+.comtitle .pp{float: right;width: 94px;line-height: 34px;}
+.bwpic{position: relative;}
+.bwpic a{position: absolute;}
+.bwpic a:hover{opacity: 0.6;}
+.bwl{left: 0;top:0;}
+.bwrt{left:195px;top:0;}
+.bwlb{left:195px;top:155px;}
+.bwrb{left: 395px;top:155px;}
+.comments{height: 290px;background: white;padding:10px;}
+
